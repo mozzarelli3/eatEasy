@@ -1,7 +1,7 @@
 // root layout for all pages
 
 import { Inter } from "next/font/google";
-import "./global.css";
+import "./globals.css";
 import Footer from "../src/components/Footer/Footer";
 import Header from "../src/components/Header/Header";
 
