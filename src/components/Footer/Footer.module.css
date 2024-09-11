@@ -1,0 +1,74 @@
+/* .footer {
+  background-color: #119822;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.375rem;
+}
+
+.footerColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerNav {
+  display: block;
+  padding: 0;
+  list-style-type: none;
+}
+
+.socialsLink {
+  text-decoration: none;
+  color: #000;
+}
+
+.emailLink {
+  color: #000;
+}
+
+.columnsContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.separator {
+  width: 80%;
+} */
+
+
+
+
+.footer {
+    display: flex;               /* Flexbox for horizontal alignment */
+    flex-wrap: wrap;             /* Allows items to wrap onto the next line */
+    justify-content: space-between; /* Space out the lists evenly */
+    align-items: flex-start;     /* Align items at the start */
+    padding: 20px;
+    background-color: #119822;   /* Optional background color */
+    border-top: 1px solid #ddd;  /* Optional top border */
+  }
+  
+  .footer ul {
+    list-style: none;            /* Remove bullet points */
+    padding: 0;                  /* Remove default padding */
+    margin: 0;                   /* Remove default margin */
+    width: 30%;                  /* Set width for each list */
+  }
+  
+  .footer li {
+    margin-bottom: 8px;          /* Add spacing between list items */
+  }
+  
+  .footer p {
+    flex-basis: 100%;            /* Takes full width, moves below the lists */
+    margin-top: 20px;            /* Add spacing above the copyright text */
+    text-align: center;          /* Center the copyright text */
+    font-size: 14px;             /* Optional smaller font size */
+    color: #666;                 /* Optional text color */
+  }
+
+.footer ul:first-of-type,
+.footer ul:nth-of-type(2),
+.footer ul:last-of-type {
+  margin-right: 20px; /* Add space between lists */
+}
